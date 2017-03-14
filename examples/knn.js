@@ -50,6 +50,7 @@ let knn_film = new ml.KNN({
     result: result_film
 });
 
+
 let category = knn_film.predict({
     x: [18, 90],
     k: 3,
